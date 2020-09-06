@@ -46,7 +46,7 @@ def rename_files(sorted_files):
     for i in sorted_files.keys():
         if i == 0:
             continue
-        os.rename(sorted_files[i], str(i) + '. ' + sorted_files[i][11:])
+        os.rename(sorted_files[i], str(i) + '. ' + sorted_files[i][12:])
     print("Done!")
 
 files = os.listdir()
